@@ -2,11 +2,11 @@
 
 A comprehensive implementation of security and privacy techniques in machine learning, including adversarial attacks, differential privacy, model extraction, data poisoning, and membership inference attacks.
 
-## 🎯 Overview
+## Overview
 
 This project explores various aspects of machine learning security and privacy through practical implementations and experiments. It covers both attack methods and defense mechanisms in the ML security domain.
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 Security-and-privacy-in-machine-learning/
@@ -29,7 +29,7 @@ Security-and-privacy-in-machine-learning/
 └── README.md                     # Project documentation
 ```
 
-## 🔬 Implemented Techniques
+## Implemented Techniques
 
 ### 1. Adversarial Attacks
 - **FGSM (Fast Gradient Sign Method)**: Basic adversarial example generation
@@ -68,7 +68,7 @@ Security-and-privacy-in-machine-learning/
 - **Defense Strategies**: Regularization and privacy techniques
 - **Evaluation Metrics**: Attack success measurement
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -163,14 +163,14 @@ python tools/convert_notebooks.py
 
 The generated files reproduce the original notebook code inside a `main()` function so you can run them with `python <module_path>.py`. The exporter strips notebook-only magics (e.g., `%matplotlib inline`) but otherwise preserves the original logic. Outputs are saved in the same locations the notebooks used (for example, model checkpoints next to the script).
 
-## 📊 Results
+## Results
 
 Experimental results are automatically saved to the `results/` directory:
 - **Figures**: Visualizations and plots in `results/figures/`
 - **Models**: Trained models in `results/models/`
 - **Logs**: Experimental logs and metrics
 
-## 🔧 Configuration
+## Configuration
 
 Key parameters can be configured in each module:
 - **Privacy Budget**: ε and δ values for differential privacy
